@@ -1,8 +1,75 @@
+html{
+  color:#443e3e;
+}
+
 .App {
   text-align: center;
+  position:absolute;
+  height:100%;
+width:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+}
+
+
+@keyframes shwifty{
+  0%{
+    transform:rotateZ(0deg)
+   }
+   
+   10%{
+    transform:rotateZ(20deg)
+   }
+
+   20%{
+    transform:rotateZ(45deg)
+   }
+
+   30%{
+    transform:rotateZ(20deg)
+   }
+
+   40%{
+    transform:rotateZ(0deg)
+   }
+
+   50%{
+    transform:rotateZ(-20deg)
+   }
+
+   60%{
+    transform:rotateZ(-45deg)
+   }
+
+   70%{
+    transform:rotateZ(-20deg)
+   }
+
+   80%{
+    transform:rotateZ(0deg)
+   }
+
+   85%{
+    transform:rotateZ(20deg)
+   }
+
+   90%{
+    transform:rotateZ(45deg)
+   }
+
+   95%{
+    transform:rotateZ(20deg)
+   }
+
+   100%{
+    transform:rotateZ(0deg)
+   }
+
 }
 /* write your parent styles in here for your App.js */

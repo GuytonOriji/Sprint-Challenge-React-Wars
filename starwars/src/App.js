@@ -2,7 +2,7 @@ import React , {useEffect, useState} from 'react';
 import './App.css';
 import Container from './CardzContainer';
 import axios from 'axios';
-
+import Footer from './Footer';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -58,9 +58,12 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+
     <Container src="icon.svg" 
     byTenDescriptions={objectz}
     />
+
+    <Footer />
     </div>
   );
 }
